@@ -47,6 +47,7 @@ footer {
     height: 2rem;
     background-color: #252523;
     color: #eee;
+    display: flex;
     /* justify-content: center; */
     align-content: center;
     align-items: center;
