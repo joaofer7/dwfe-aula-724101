@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Minha Primeira Página</title>
-    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <script src="./assets/js/menu-hamburguer.js"></script>
+    <link rel="stylesheet" href="./assets/css/home/estilo.css">
     <script src="https://kit.fontawesome.com/e18b0afa98.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -10,7 +11,7 @@
       <div class="logo">J</div>
      
       <h1 class="titulo">Meu site de noticia</h1>
-      <div class="menu-hamburguer">
+      <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral();">
         <i class="fa-solid fa-bars"></i>
       </div>
       
@@ -29,7 +30,7 @@
                             <div class="icone-inicial">
                                 <i class="fa-solid fa-newspaper"></i></i>
                             </div>
-                            <div class="rotulo">Mensagem</div>
+                            <div class="rotulo">Notícias</div>
                             <div class="icone-final"><i class="fa-solid fa-chevron-down"></i></div>
                             
                            
@@ -53,7 +54,7 @@
                         <div class="opcao">
                             <div class="icone-inicial">
                              <i class="fa-solid fa-envelope"></i></div>
-                            <div class="rotulo"></div>
+                            <div class="rotulo">Mensagem</div>
                             <div class="icone-final"><i class="fa-solid fa-chevron-down"></i></div>
                         </div>
                     </a>
