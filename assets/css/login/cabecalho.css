@@ -10,8 +10,8 @@ header {
 }
 
 .logo{
-  border: .1rem blue solid;
-  background-color: blue;
+  border: .1rem #ebc908;
+  background-color: #ebc908;
   color: #eee;
   font-weight: bold;
   border-radius: 100%;

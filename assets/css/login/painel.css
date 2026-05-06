@@ -11,6 +11,7 @@
     margin-bottom: 1.5rem;
     text-align: center;
     font-weight: bold;
+    color: #ebc908;
 }
 form{
     width: 100%;
@@ -60,7 +61,7 @@ button{
     width: 100%;
     padding: 0.75rem;
     border-radius: 0.5rem;
-    background-color: #0052cc;
+    background-color: #ebc908;
     color: #eee;
     font-weight: bold;
     cursor: pointer;
@@ -73,8 +74,29 @@ button{
 }
 
 button:hover{
-    background-color: #1818b0;
+    background-color: #ebc908;
     gap: 0.3rem;
-    box-shadow: 0 0.3rem 0.8rem;
+    box-shadow: 0 0.3rem 0.8rem #0052cc4d
     
+}
+.links-auxiliares{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+.links-auxiliares a{
+    color: #ebc908;
+    text-decoration: none;
+}
+.links-auxiliares a:hover{
+    color: #6ba3f5;
+    text-decoration: underline;
+}
+
+.links-auxiliares span{
+    color: #666;
+    font-weight: bold;
 }

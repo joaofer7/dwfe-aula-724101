@@ -1,13 +1,14 @@
 .cartao {
-    border: 0.1rem solid #CCC;
+    border: 0.1rem solid #ebc908;
     border-radius: .5rem;
-    box-shadow: .4rem .3rem .3rem .03rem #eee;
+    box-shadow: .4rem .3rem .3rem .03rem #ebc908;
     display: flex;
     flex-direction: column;
     padding: .5rem;
     width: 15rem;
     height: 28rem;
-    background-color: #eee
+    background-color: #252323;
+    color:white;
 }
 
 .imagem-do-cartao {
@@ -38,8 +39,8 @@
 }
 
 .botao-do-cartao {
-    background-color: blue;
-    color: #bbb;
+    background-color: #ebc908;
+    color: #000000;
     text-align: center;
     padding: .3rem;
     text-decoration: none;
